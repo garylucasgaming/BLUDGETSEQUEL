@@ -36,11 +36,12 @@ public class PlayerMovement : MonoBehaviour
         
 
 
-        float x = Input.GetAxis("Horizontal");
+        float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxis("Vertical");
-
+        
+        
          move = transform.right * x + transform.forward * z;
-
+        
         controller.Move(move * speed * Time.deltaTime);
 
         if(Input.GetButtonDown("Jump") && isGrounded)
@@ -71,23 +72,25 @@ public class PlayerMovement : MonoBehaviour
             
         }
 
-    }
-
-
-
-    IEnumerator Dash()
-    {
-        
-        float startTime = Time.time;
-
-        while(Time.time < startTime + dashTime)
+        IEnumerator Dash()
         {
-           
-            controller.Move(move * dashSpeed * Time.deltaTime);
-            dashCD = dashCooldown;
-            yield return null;
+
+            float startTime = Time.time;
+
+            while(Time.time < startTime + dashTime)
+            {
+
+                controller.Move(move * dashSpeed * Time.deltaTime);
+                dashCD = dashCooldown;
+                yield return null;
+            }
+
         }
-        
+
     }
+
+
+
+    
 
 }
