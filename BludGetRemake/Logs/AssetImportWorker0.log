@@ -15,11 +15,11 @@ C:/Users/Will/Documents/GitHub/BLUDGETSEQUEL/BludGetRemake
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56605
+63483
 Successfully changed project path to: C:/Users/Will/Documents/GitHub/BLUDGETSEQUEL/BludGetRemake
 C:/Users/Will/Documents/GitHub/BLUDGETSEQUEL/BludGetRemake
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 190.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.15f1 (e767a7370072)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1210 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001862 seconds.
+Registered in 0.005713 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 136.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.575 seconds
+- Completed reload, in  4.495 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3575ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (4496ms)
+		BeginReloadAssembly (515ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (577ms)
-			LoadAssemblies (55ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1337ms)
+			LoadAssemblies (510ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (553ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (233ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (520ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (130ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010986 seconds.
+Registered in 0.016261 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.597 seconds
+- Completed reload, in  8.221 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1598ms)
-		BeginReloadAssembly (191ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1307ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (396ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (625ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (542ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1565 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 124.8 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2049.
-Total: 2.327100 ms (FindLiveObjects: 0.171500 ms CreateObjectMapping: 0.093400 ms MarkObjects: 1.966700 ms  DeleteObjects: 0.094300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/BWall2.fbx
-  artifactKey: Guid(ef0f2235357e27e4db3ba6d5e0b33311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/BWall2.fbx using Guid(ef0f2235357e27e4db3ba6d5e0b33311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44291c20ea1a615c17d6849fb125ee3') in 0.579620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/BWall.fbx
-  artifactKey: Guid(e80cf5b8ff441294bab1eb4736c77091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/BWall.fbx using Guid(e80cf5b8ff441294bab1eb4736c77091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7106a27f49a69f4bf3ac4a0a21ada68a') in 0.033713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/EWall.fbx
-  artifactKey: Guid(ccbbc2a201ad83041b24410751d95c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/EWall.fbx using Guid(ccbbc2a201ad83041b24410751d95c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cf7020330ed7c1b000a8d1d2769b0f') in 0.100915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/DWall1.fbx
-  artifactKey: Guid(a7368a84a08d79e43a83bc0e44ff11c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/DWall1.fbx using Guid(a7368a84a08d79e43a83bc0e44ff11c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81bcc68deede320baf1c1723e6a7050') in 0.065784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/CWall2.fbx
-  artifactKey: Guid(977bac009b5816c4f89402b5089922d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/CWall2.fbx using Guid(977bac009b5816c4f89402b5089922d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ff91945b3b900dd5cee209c1fa5f6a') in 0.035685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/DWall2.fbx
-  artifactKey: Guid(d29fdf565be3c2443b1c064553306520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/DWall2.fbx using Guid(d29fdf565be3c2443b1c064553306520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b71aa404bad3943246356070d5bd75') in 0.063847 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/BWall4.fbx
-  artifactKey: Guid(ec738d235126a7d4baa75f5ee7358ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/BWall4.fbx using Guid(ec738d235126a7d4baa75f5ee7358ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84baa5e7e67a3a19807b3b7c7d174ee7') in 0.023042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/BWall5.fbx
-  artifactKey: Guid(7cffd6691bfeb844e82eb7413e40f2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/BWall5.fbx using Guid(7cffd6691bfeb844e82eb7413e40f2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a33778075135af23ce2ecfe8d411e1') in 0.023179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/DWall.fbx
-  artifactKey: Guid(2e1f38da25c0f9f4eafbd8d34cb3288c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/DWall.fbx using Guid(2e1f38da25c0f9f4eafbd8d34cb3288c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400fe44f96d10d33d46a196468346c5f') in 0.060596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/BWall3.fbx
-  artifactKey: Guid(9fc46164e68ea384f9a22b73660d5d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/BWall3.fbx using Guid(9fc46164e68ea384f9a22b73660d5d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5234318cc693506591532ab3c01de3') in 0.023216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/AWall.fbx
-  artifactKey: Guid(ff68c5d48a6a2de43bff5212b292ead8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/AWall.fbx using Guid(ff68c5d48a6a2de43bff5212b292ead8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29febc3c778d62f6b226faa2cd36577') in 0.022854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/BWall1.fbx
-  artifactKey: Guid(5ad059938b339ce4f812a3f589518d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/BWall1.fbx using Guid(5ad059938b339ce4f812a3f589518d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c138689d74a1f606d36669663b4bb3bb') in 0.026310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/EWall2.fbx
-  artifactKey: Guid(349573fb1d1d5a043b5428f8f6b2e025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/EWall2.fbx using Guid(349573fb1d1d5a043b5428f8f6b2e025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb85b2abed60f0f20f3bdd29cb0e6920') in 0.075708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/AWall1.fbx
-  artifactKey: Guid(03c19a968f72c3646947324fb635af61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/AWall1.fbx using Guid(03c19a968f72c3646947324fb635af61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b9f127f0e4e0836c1e6aa679effda6') in 0.023812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/EWall1.fbx
-  artifactKey: Guid(b261b08c4a4243f4ab4416b6c5bcac34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/EWall1.fbx using Guid(b261b08c4a4243f4ab4416b6c5bcac34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258d4bc187530bb2ce7c4b1b62ef54d2') in 0.075766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/CWall3.fbx
-  artifactKey: Guid(83f5f83f102778c40a1f065df7628837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/CWall3.fbx using Guid(83f5f83f102778c40a1f065df7628837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c33f528e2534f298495e979b01dc9a') in 0.038712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/CWall.fbx
-  artifactKey: Guid(ed1a64e582b81074290772eb6d9201cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/CWall.fbx using Guid(ed1a64e582b81074290772eb6d9201cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129e15cc4a9c82feceaf824cc87176c9') in 0.037780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/AWall3.fbx
-  artifactKey: Guid(6baf83f640020a9468c8daed68ef8f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/AWall3.fbx using Guid(6baf83f640020a9468c8daed68ef8f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d93c307286177f86bd77a6cda78e6c') in 0.026337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/CWall1.fbx
-  artifactKey: Guid(d693bbbac8749234a80062d532e64522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/CWall1.fbx using Guid(d693bbbac8749234a80062d532e64522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0217cc9dcdd15c90f57efd901de8ceb7') in 0.036950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Models/walls/AWall2.fbx
-  artifactKey: Guid(bccca69f06b55214eab1952d18cf7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Models/walls/AWall2.fbx using Guid(bccca69f06b55214eab1952d18cf7d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc4520723bc1b10a61ad059443994d2') in 0.025299 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008778 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.293 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1294ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1067ms)
-			LoadAssemblies (119ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (363ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (437ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (367ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 124.8 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2062.
-Total: 2.576300 ms (FindLiveObjects: 0.149200 ms CreateObjectMapping: 0.065500 ms MarkObjects: 2.297500 ms  DeleteObjects: 0.062700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006927 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.095 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1095ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (913ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (358ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 124.8 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2065.
-Total: 2.115700 ms (FindLiveObjects: 0.159500 ms CreateObjectMapping: 0.070900 ms MarkObjects: 1.829700 ms  DeleteObjects: 0.054500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008500 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.388 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1388ms)
-		BeginReloadAssembly (201ms)
+	ReloadAssembly (8222ms)
+		BeginReloadAssembly (624ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1106ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (184ms)
+		EndReloadAssembly (7247ms)
+			LoadAssemblies (237ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (411ms)
+			SetupTypeCache (1140ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (419ms)
+			RebuildScriptCaches (592ms)
+			SetupLoadedEditorAssemblies (4690ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (349ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 124.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2068.
-Total: 2.810400 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.462400 ms  DeleteObjects: 0.080300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006508 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1092ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (883ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (348ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.8 MB.
-System memory in use after: 124.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2071.
-Total: 1.874000 ms (FindLiveObjects: 0.138300 ms CreateObjectMapping: 0.053800 ms MarkObjects: 1.631000 ms  DeleteObjects: 0.050000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 951.784976 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs
-  artifactKey: Guid(a98329f0bcd5b91439c1c6f934e8068e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs using Guid(a98329f0bcd5b91439c1c6f934e8068e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c75a5b21234fe9986f65d546426d31') in 0.012001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040485 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AFloor.prefab
-  artifactKey: Guid(17712f6821dc7434fa79e167b0321c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AFloor.prefab using Guid(17712f6821dc7434fa79e167b0321c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbde75460818799166153eb5db33343') in 0.093706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AWall.prefab
-  artifactKey: Guid(b37cb94044ce07f4fb0a4d8af16e73cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AWall.prefab using Guid(b37cb94044ce07f4fb0a4d8af16e73cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a504eb12afe28e8ee73265d427f1a625') in 0.021890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Beam3.prefab
-  artifactKey: Guid(83671d05214d22d4b98075948c1be7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Beam3.prefab using Guid(83671d05214d22d4b98075948c1be7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87412d869ebd7d5126f90389b4b00198') in 0.021983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/CWindow1.prefab
-  artifactKey: Guid(105bba809c64ae54daaefdae3dbc2bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/CWindow1.prefab using Guid(105bba809c64ae54daaefdae3dbc2bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da740594fb19025ad022b25e60d9ecb0') in 0.289970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Balcony.prefab
-  artifactKey: Guid(9f3b346d0fd712b46be40dd1533d8061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Balcony.prefab using Guid(9f3b346d0fd712b46be40dd1533d8061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93770d1982ba5f6dc1bb86e6881276b4') in 0.326312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AWall1.prefab
-  artifactKey: Guid(244e06a0dd258d14aba23f090edf7d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AWall1.prefab using Guid(244e06a0dd258d14aba23f090edf7d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbe11ac6f5de3e8b3296e897d06f022') in 0.022736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof1.prefab
-  artifactKey: Guid(4388704ac13e1f240b6711ef9a99a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof1.prefab using Guid(4388704ac13e1f240b6711ef9a99a712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cef6512c109ac9a9a65c1100d809a7') in 0.056244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/BWall5.prefab
-  artifactKey: Guid(319f89602a482604b8040ff27d0c4478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/BWall5.prefab using Guid(319f89602a482604b8040ff27d0c4478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc19e29b19e3fe98bb09456e96c9e2b') in 0.022149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/BWall2.prefab
-  artifactKey: Guid(6f6f1688a56f1184da7c0595886c2d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/BWall2.prefab using Guid(6f6f1688a56f1184da7c0595886c2d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4db2dfc5636e23b43e68521ab811506') in 0.021476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/CWall.prefab
-  artifactKey: Guid(7c1c761c87996ed40902b623fcb0b308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/CWall.prefab using Guid(7c1c761c87996ed40902b623fcb0b308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8866ba3457c2219532c8ac1721d37f') in 0.033966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof3.prefab
-  artifactKey: Guid(36e5eea378fb9a146a510c42950a368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof3.prefab using Guid(36e5eea378fb9a146a510c42950a368f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165cc306a5c137bdc938b214b60aa5ca') in 0.058186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Beam1.prefab
-  artifactKey: Guid(677e60f005518db46a928e5e2a9ba9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Beam1.prefab using Guid(677e60f005518db46a928e5e2a9ba9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6caa030e495f6b2de76b93ca414932a') in 0.022624 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/BWall.prefab
-  artifactKey: Guid(2b4fb640f2926ec4383ba7ed1e38d63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/BWall.prefab using Guid(2b4fb640f2926ec4383ba7ed1e38d63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9e75f6029c061f9c29c557c4f4bd04') in 0.024895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/BWall1.prefab
-  artifactKey: Guid(18f32fcd7270fdd449e6f90888f79692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/BWall1.prefab using Guid(18f32fcd7270fdd449e6f90888f79692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433bf4387c032990b82db2753a8e44fc') in 0.022764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/DoorB.prefab
-  artifactKey: Guid(bb94862341d7876408d369ed08a1ceb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/DoorB.prefab using Guid(bb94862341d7876408d369ed08a1ceb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f55908156b4050a831d8c18e8cacf6') in 0.329696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Awindow.prefab
-  artifactKey: Guid(e8be247f401e5ec43b9d12d732a7f119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Awindow.prefab using Guid(e8be247f401e5ec43b9d12d732a7f119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912378cbe998939d6225d3928c1d9db4') in 0.052602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/DoorD.prefab
-  artifactKey: Guid(d70493a61d5adcc4e9a416543b9c0446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/DoorD.prefab using Guid(d70493a61d5adcc4e9a416543b9c0446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61983d1df670f222e8e83cb11e3ae4fb') in 0.044510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof5.prefab
-  artifactKey: Guid(caa28ea40193f944896d9af516082133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof5.prefab using Guid(caa28ea40193f944896d9af516082133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b62b3c3972bca24e5910c20333ba7f') in 0.046227 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Chimney.prefab
-  artifactKey: Guid(393337cbde8f26940b3399bc94eff863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Chimney.prefab using Guid(393337cbde8f26940b3399bc94eff863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00694979664510bff69367d282adb9cb') in 0.048297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/CurbRocks.prefab
-  artifactKey: Guid(777f245e4a5d0974c89bd3a6a618e3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/CurbRocks.prefab using Guid(777f245e4a5d0974c89bd3a6a618e3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8e39c593c764f39fc5a8b68f6eebd1') in 0.236796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesA2.prefab
-  artifactKey: Guid(281f82d6876f42e42a01064af11c733f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesA2.prefab using Guid(281f82d6876f42e42a01064af11c733f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc8f552f3d4cd4a23a51295ed2a16c9') in 0.020120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Fence3.prefab
-  artifactKey: Guid(e12b530437f6c164697c512c64cdbd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Fence3.prefab using Guid(e12b530437f6c164697c512c64cdbd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326d47feba8b401f245c79971bd9dbed') in 0.038843 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/EWall1.prefab
-  artifactKey: Guid(c89f23be624098c4f807e627b7554478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/EWall1.prefab using Guid(c89f23be624098c4f807e627b7554478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add6d94f79088436fbd0f4d8c35f8bec') in 0.075888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/DWall.prefab
-  artifactKey: Guid(e1bfb90588499354ea390abe9fb76019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/DWall.prefab using Guid(e1bfb90588499354ea390abe9fb76019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed7e38feb7fd13a47278829bb08ea2d') in 0.063992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow5.prefab
-  artifactKey: Guid(5c247657bc4daf549b3c2bd3f7155841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow5.prefab using Guid(5c247657bc4daf549b3c2bd3f7155841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6f62680d80cf985060f91048cde941') in 0.052409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/CWindow.prefab
-  artifactKey: Guid(f75f072e031ed5148bfe4af8ebe90955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/CWindow.prefab using Guid(f75f072e031ed5148bfe4af8ebe90955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2ffb412185e590ae57e4e27ddef48b0') in 0.370401 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/DoorC.prefab
-  artifactKey: Guid(f7e941ca12ed03d418c621a237633b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/DoorC.prefab using Guid(f7e941ca12ed03d418c621a237633b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99abda6cd75e11c8fb072d3e01596966') in 0.049567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof.prefab
-  artifactKey: Guid(db744f74a6517f84e861a9ef906a51ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof.prefab using Guid(db744f74a6517f84e861a9ef906a51ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74869f77ba5c4b6140beed3f7f7e4f16') in 0.056853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AFloor2.prefab
-  artifactKey: Guid(d837be46f7f9a3e478365bcc39c5afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AFloor2.prefab using Guid(d837be46f7f9a3e478365bcc39c5afe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbc14c16b4c9d9063687b4ed276c9fe') in 0.031649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof6.prefab
-  artifactKey: Guid(46b9f2ab1d9d24c4f9ed18ba5b6d8bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof6.prefab using Guid(46b9f2ab1d9d24c4f9ed18ba5b6d8bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c2a0aa9c4eb730c26fa22bf269d6a2') in 0.085623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ClothesLine.prefab
-  artifactKey: Guid(91dc5c4b3e0f72248babbfa816275f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ClothesLine.prefab using Guid(91dc5c4b3e0f72248babbfa816275f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f10d10d6676015a09307d47b0ff7701') in 0.196368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalk1x1.prefab
-  artifactKey: Guid(3e2638f7f2e921e43a1111094b1736b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalk1x1.prefab using Guid(3e2638f7f2e921e43a1111094b1736b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711be08f08a888d94adc05073c2b3d51') in 0.025266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Stairs.prefab
-  artifactKey: Guid(9be65cef0f5542840bae4da884bbb645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Stairs.prefab using Guid(9be65cef0f5542840bae4da884bbb645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b759cabf0f936b3112a50015a4b3e1d7') in 0.022753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Bench.prefab
-  artifactKey: Guid(0c011625e033c4b4eb2e3c17a011fb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Bench.prefab using Guid(0c011625e033c4b4eb2e3c17a011fb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b3fbe6e11cbbeaab4a4285c7f52980') in 0.021471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/DWall2.prefab
-  artifactKey: Guid(0384cbd9063c9cb47b30637601621fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/DWall2.prefab using Guid(0384cbd9063c9cb47b30637601621fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af88c59b884846dcc81791200cddafb') in 0.064123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/CWall1.prefab
-  artifactKey: Guid(0f7ed3993b6ad5347a9512e8a412e1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/CWall1.prefab using Guid(0f7ed3993b6ad5347a9512e8a412e1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea29433f67221ef0d74b4e39b6ecd65c') in 0.035036 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/BFloor.prefab
-  artifactKey: Guid(3089c25a44e706445aedd1ab4c0ec93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/BFloor.prefab using Guid(3089c25a44e706445aedd1ab4c0ec93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190aa4963bf69b63a7c1c33e6e35b062') in 0.029048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Box.prefab
-  artifactKey: Guid(43f87119758809a40bf13161adda7949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Box.prefab using Guid(43f87119758809a40bf13161adda7949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6844d0c725bd61abde6c4b7fa8d0172') in 0.025371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/StoneCorner.prefab
-  artifactKey: Guid(4f313bf60d428ee43a9c7e34f73d9902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/StoneCorner.prefab using Guid(4f313bf60d428ee43a9c7e34f73d9902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1b03ddc5e44e2cc858603eba6457bd') in 0.022294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Stairs1.prefab
-  artifactKey: Guid(35a418a7830daa84f9d8565847cc2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Stairs1.prefab using Guid(35a418a7830daa84f9d8565847cc2b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f248d15c5cc098f809339bae3d4a2875') in 0.023012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AWindow1.prefab
-  artifactKey: Guid(20df7e020e19a7c4c91c389ccfc18540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AWindow1.prefab using Guid(20df7e020e19a7c4c91c389ccfc18540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d7481435585a7e5782d426cfae1364') in 0.048097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesB3.prefab
-  artifactKey: Guid(6844e20c112f687448697a98a44c5527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesB3.prefab using Guid(6844e20c112f687448697a98a44c5527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0a3f4e457883c927322b203936cf3b') in 0.021302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/BWall4.prefab
-  artifactKey: Guid(91f0e7cda0f087d4eb78dd9edfd75406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/BWall4.prefab using Guid(91f0e7cda0f087d4eb78dd9edfd75406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907688430c2122ccf6ffdf948662eac0') in 0.020740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalkCorner2.prefab
-  artifactKey: Guid(f06e00147cf2d844fb3969906c14a135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalkCorner2.prefab using Guid(f06e00147cf2d844fb3969906c14a135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959f75172a8e1e679a925dd20b017f3e') in 0.027195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/CWindow2.prefab
-  artifactKey: Guid(dd7d745a2d524a04e913fd223cd30401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/CWindow2.prefab using Guid(dd7d745a2d524a04e913fd223cd30401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac3083e1aa9868bada33b36c32b6351') in 0.033104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/DoorE.prefab
-  artifactKey: Guid(bb0959665de83ff40b669d53b97e7074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/DoorE.prefab using Guid(bb0959665de83ff40b669d53b97e7074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2d57744b10c3eaed3c6bd91084c824') in 0.032950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AWindow3.prefab
-  artifactKey: Guid(1963070f6d945dc4eb4294618d970040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AWindow3.prefab using Guid(1963070f6d945dc4eb4294618d970040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98aa83f8baabec934a47834c62cf8332') in 0.024649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/EWall.prefab
-  artifactKey: Guid(5160c95a27c8a5548bb643ef6173787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/EWall.prefab using Guid(5160c95a27c8a5548bb643ef6173787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d3b629fa7baaa4902134d48c0beeb1') in 0.069889 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/BWall3.prefab
-  artifactKey: Guid(89c623fed394cc74b814f9f36b0f8f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/BWall3.prefab using Guid(89c623fed394cc74b814f9f36b0f8f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f240b7dc76dd94ab63563b24227cb6ad') in 0.021129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Chimney1.prefab
-  artifactKey: Guid(b42063612fd81b24ea7d7c3f1dc04b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Chimney1.prefab using Guid(b42063612fd81b24ea7d7c3f1dc04b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5989b085d87758434edac3d12d5a1052') in 0.034137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Beam.prefab
-  artifactKey: Guid(2d5b182873b9ec848b6d98e3e0ae0e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Beam.prefab using Guid(2d5b182873b9ec848b6d98e3e0ae0e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369e66243b8ff0921873893aa9646ad3') in 0.022426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AWindow4.prefab
-  artifactKey: Guid(673051d2e3c8bcd47a8360a605361f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AWindow4.prefab using Guid(673051d2e3c8bcd47a8360a605361f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd955900825e71af03287d50032ef77d1') in 0.055686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AWindow5.prefab
-  artifactKey: Guid(69bcbc57bf5afb940aa7d02cc16f235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AWindow5.prefab using Guid(69bcbc57bf5afb940aa7d02cc16f235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759ab20402a222b1d64670f1a1e55e77') in 0.063485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesC3.prefab
-  artifactKey: Guid(0aedd836c5dacf94681e0d439d7dca63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesC3.prefab using Guid(0aedd836c5dacf94681e0d439d7dca63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4753a3f7059733942221645fc8abcfc') in 0.020168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalkCorner3.prefab
-  artifactKey: Guid(88ba4227b2ba19f4c9f122380a3d446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalkCorner3.prefab using Guid(88ba4227b2ba19f4c9f122380a3d446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7843f86afe9403f18a03cab7aa6a442b') in 0.026969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof8.prefab
-  artifactKey: Guid(03e1827223aed9947af07fc165594aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof8.prefab using Guid(03e1827223aed9947af07fc165594aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf85248e074dd066a64f5278edc2ba0') in 0.072056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AFloor1.prefab
-  artifactKey: Guid(2a4bbc643a2f4cf44abb6324b4f7215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AFloor1.prefab using Guid(2a4bbc643a2f4cf44abb6324b4f7215d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ff47981d6bc1add33815c5871f9709') in 0.031570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof2.prefab
-  artifactKey: Guid(45537c43500dd444baa3c2ac1c02ab4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof2.prefab using Guid(45537c43500dd444baa3c2ac1c02ab4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df01a8dd6b33bff8f398fbcaf0c7d878') in 0.059148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/DoorA.prefab
-  artifactKey: Guid(09e14f8dc7f8e4241b6da3a3a8b84324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/DoorA.prefab using Guid(09e14f8dc7f8e4241b6da3a3a8b84324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9dc7ca837b9da6516204c71ad73ba59') in 0.059598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof7.prefab
-  artifactKey: Guid(b496c6db7dcfdb54986fa35b39d9c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof7.prefab using Guid(b496c6db7dcfdb54986fa35b39d9c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952b2dd60da4658e3f17f0f3e24f59f6') in 0.075797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/StoneStairs.prefab
-  artifactKey: Guid(b94c546ef2eb9514681d6ad68040eb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/StoneStairs.prefab using Guid(b94c546ef2eb9514681d6ad68040eb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a1f3fbd0034d6021a7efca039da5ea') in 0.194226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow1.prefab
-  artifactKey: Guid(0e2b9493bdeebae41b7778ef30efdabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow1.prefab using Guid(0e2b9493bdeebae41b7778ef30efdabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff8e61d8be22398d08a3e10494b1bae') in 0.055543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AWall3.prefab
-  artifactKey: Guid(41cdcfac286485b439e94619716c3b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AWall3.prefab using Guid(41cdcfac286485b439e94619716c3b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd4d7ef13a4f943dec7470ec2a28282') in 0.021346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/EWall2.prefab
-  artifactKey: Guid(7df4a8acb7efd3f4ea58a7cc6d0a3de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/EWall2.prefab using Guid(7df4a8acb7efd3f4ea58a7cc6d0a3de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43099ab6e08a4b3b29bea141cd61b24') in 0.073383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/CWall2.prefab
-  artifactKey: Guid(af1c1036183d57040be9d2237979c262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/CWall2.prefab using Guid(af1c1036183d57040be9d2237979c262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57845df04b8e377d802f319225db8278') in 0.033807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesC1.prefab
-  artifactKey: Guid(0cd1a6c60563caf40b15dd7594cb9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesC1.prefab using Guid(0cd1a6c60563caf40b15dd7594cb9212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4c136452237ff98c4464d1ff0f2459') in 0.019719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesA1.prefab
-  artifactKey: Guid(4f7d514f67afd474c9c125cfe399dee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesA1.prefab using Guid(4f7d514f67afd474c9c125cfe399dee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c279e75415825d7c4a143a29eccda8b6') in 0.023275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalkCorner.prefab
-  artifactKey: Guid(f9cbe47b073f6954db7d2f8786eb205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalkCorner.prefab using Guid(f9cbe47b073f6954db7d2f8786eb205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58d3ae8478cf8b1f3c30fa845ba7e7a') in 0.024855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesB2.prefab
-  artifactKey: Guid(e91509d2cda04df49be93c081fd08dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesB2.prefab using Guid(e91509d2cda04df49be93c081fd08dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc3f525c948a30148710f99c3fe00da') in 0.019391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Table.prefab
-  artifactKey: Guid(814162abfa5364c4db0e67672be041c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Table.prefab using Guid(814162abfa5364c4db0e67672be041c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40102924f522fd9266670c245499232') in 0.020918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ColumnCurbRocks.prefab
-  artifactKey: Guid(0cf4565ca30583e4c9dc8d5f43e8b0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ColumnCurbRocks.prefab using Guid(0cf4565ca30583e4c9dc8d5f43e8b0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a9f9d20987f3f7b35176f42b4ccff6') in 0.039410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Beam2.prefab
-  artifactKey: Guid(b8ca9c1d94ed65346a94f1e52f643713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Beam2.prefab using Guid(b8ca9c1d94ed65346a94f1e52f643713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff49e774477c1f0741e4100068b942ae') in 0.021114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AWall2.prefab
-  artifactKey: Guid(01553867a331bcf4c8d0341a66cf46f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AWall2.prefab using Guid(01553867a331bcf4c8d0341a66cf46f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3480e7bd5177b9c27a34aebd3f2a19') in 0.021411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesC2.prefab
-  artifactKey: Guid(8e1c5f8bd75ff0b4dac4f6540bf3f62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesC2.prefab using Guid(8e1c5f8bd75ff0b4dac4f6540bf3f62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6170a7068d4a2d58c13173ac0a4d51a') in 0.019525 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalk3x1.prefab
-  artifactKey: Guid(a95eddb85aec9284c81c25d391365a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalk3x1.prefab using Guid(a95eddb85aec9284c81c25d391365a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663844a91dfc998608aadf36b796aeb1') in 0.026124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof4.prefab
-  artifactKey: Guid(ee44e75a3b317994b97efeeb6b400f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/ARoof4.prefab using Guid(ee44e75a3b317994b97efeeb6b400f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f498d96527d92b47f1e0eb25e3bb0d13') in 0.173121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesA3.prefab
-  artifactKey: Guid(451cbee2a72a9d54792eb3b21aca0437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesA3.prefab using Guid(451cbee2a72a9d54792eb3b21aca0437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279f3147d4ac3d1f423cc6946e7077d5') in 0.020068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow.prefab
-  artifactKey: Guid(9888d1320295a094b86b7800f733917b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow.prefab using Guid(9888d1320295a094b86b7800f733917b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4326c73bbdbb366cacc370b71be7b130') in 0.056399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow2.prefab
-  artifactKey: Guid(3b05190d867a8254b9480e9179552489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow2.prefab using Guid(3b05190d867a8254b9480e9179552489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81849381b03980488572a8bc953ed2b7') in 0.069216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Barrel.prefab
-  artifactKey: Guid(477a1ec9a64239540aa822d76f3fff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Barrel.prefab using Guid(477a1ec9a64239540aa822d76f3fff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb7fdce34e14d258dd86f3f4797efcb') in 0.032333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Lamp.prefab
-  artifactKey: Guid(713627126a0edf743b5c92d73b86a750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Lamp.prefab using Guid(713627126a0edf743b5c92d73b86a750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d04667a5848cb774ad2bea4b8348df') in 0.133218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/DetailWall.prefab
-  artifactKey: Guid(b0670114cea0cd1429dc0b78811596f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/DetailWall.prefab using Guid(b0670114cea0cd1429dc0b78811596f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588aa533e389bc0d19a890b14200423e') in 0.021328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesB1.prefab
-  artifactKey: Guid(d8d12ef401b558245ac9152acb9c51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/PipelinesB1.prefab using Guid(d8d12ef401b558245ac9152acb9c51ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af8d58246356fd1c1ae5d7d58db9477') in 0.021477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/CWall3.prefab
-  artifactKey: Guid(bf1312850ce4255469fbbb1da10e9f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/CWall3.prefab using Guid(bf1312850ce4255469fbbb1da10e9f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6610f82c324143f9367f03963d1247') in 0.036747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/DWall1.prefab
-  artifactKey: Guid(e343a8a3981a6aa43ad5896a7f8a3963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/DWall1.prefab using Guid(e343a8a3981a6aa43ad5896a7f8a3963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3debdf265bc9fe0dbc563640815fc3dc') in 0.060174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalk2x1.prefab
-  artifactKey: Guid(c37edc4b7296a9f49b85cc66127b20c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/SideWalk2x1.prefab using Guid(c37edc4b7296a9f49b85cc66127b20c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c376c57b08f1e3a3250a32158ad96aae') in 0.029891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow3.prefab
-  artifactKey: Guid(d4d0d3c4e035b1645a6753b7eb139962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow3.prefab using Guid(d4d0d3c4e035b1645a6753b7eb139962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a26f6cca12603a303a5cb3162fe63d1') in 0.025831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/AWindow2.prefab
-  artifactKey: Guid(55cf7e4fb9673e449a083e48c97acb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/AWindow2.prefab using Guid(55cf7e4fb9673e449a083e48c97acb12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b4792801a5009578dc3fc033c98054') in 0.062983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow4.prefab
-  artifactKey: Guid(7028fa7c4e2f1d249afb098f908a180e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Bwindow4.prefab using Guid(7028fa7c4e2f1d249afb098f908a180e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f840ba6695510d49bf564fe858c19c43') in 0.050763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/Prefabs/Fence.prefab
-  artifactKey: Guid(f4c00a1926d8ca0428837983fa9fd66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/Prefabs/Fence.prefab using Guid(f4c00a1926d8ca0428837983fa9fd66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772de7d2df6ea5fa16cb57605c7a93f3') in 0.033118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.708337 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures
-  artifactKey: Guid(c9f807c170f2bda4f9d58599b163356f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures using Guid(c9f807c170f2bda4f9d58599b163356f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efed701ae3bb4621aadd3e6e623a61e0') in 0.008095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.143400 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/asphalt_Albedo.tga
-  artifactKey: Guid(c13010c8a6dec8c468acf39f6021f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/asphalt_Albedo.tga using Guid(c13010c8a6dec8c468acf39f6021f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585296397733f2f84412978f722d9570') in 0.028910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/wet asphalt_Normal.png
-  artifactKey: Guid(5df221fffa448354bac26a1f9fb2c4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/wet asphalt_Normal.png using Guid(5df221fffa448354bac26a1f9fb2c4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24051e03ba1b2132021e7a7ed9608859') in 0.042085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/GrassLayer.terrainlayer
-  artifactKey: Guid(9a4cea7f42278f5439a4cedde5e25e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/GrassLayer.terrainlayer using Guid(9a4cea7f42278f5439a4cedde5e25e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a9858a4462ddce6b995738cd0589b4') in 0.032599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/RockGroundNormal.tga
-  artifactKey: Guid(c0921d38b98c80044bef8f954b530c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/RockGroundNormal.tga using Guid(c0921d38b98c80044bef8f954b530c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0317a2176924ba48b802476a3bad96e4') in 0.015601 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/Grass.tga
-  artifactKey: Guid(589411228b3cacc4283cf2bd7b7bf62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/Grass.tga using Guid(589411228b3cacc4283cf2bd7b7bf62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e9858e919cb5caff63a5e69f22054b') in 0.021297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/wet asphalt_Albedo.tga
-  artifactKey: Guid(19e744c5f31783c49ae8a7ac01b7b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/wet asphalt_Albedo.tga using Guid(19e744c5f31783c49ae8a7ac01b7b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1e28300ddc0b1eabecc17a8e2aecb3') in 0.017105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/WetAsphalt.terrainlayer
-  artifactKey: Guid(39640c14e380b1840bbc51bd34e9ffb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/WetAsphalt.terrainlayer using Guid(39640c14e380b1840bbc51bd34e9ffb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b027ee63c293f70b80ca3d9d9673ec73') in 0.019324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/RockGround.terrainlayer
-  artifactKey: Guid(e72ef646723c4f94ca7b594840abca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/RockGround.terrainlayer using Guid(e72ef646723c4f94ca7b594840abca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786711c44b4536433bac5f3134f3084e') in 0.018630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/asphalt_Normal.png
-  artifactKey: Guid(81323223458aaf247b562cd1cb57b6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/asphalt_Normal.png using Guid(81323223458aaf247b562cd1cb57b6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1ef920d51fb7dd1f9d1c6a6eebcdfc') in 0.015045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/RockGround.tga
-  artifactKey: Guid(f96046bda796e5345b9164fd3a3ee68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/RockGround.tga using Guid(f96046bda796e5345b9164fd3a3ee68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10dd73121ff82230bf1ebbba8055d58') in 0.015463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/TerrainTextures/GrassNormal.tga
-  artifactKey: Guid(7a2751add040ac3438858668ea1a46bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/TerrainTextures/GrassNormal.tga using Guid(7a2751add040ac3438858668ea1a46bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b90b26f47d64a7d1923c351d2221327') in 0.015378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.823561 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs
-  artifactKey: Guid(a86373d631cd46449a40a0761f76fb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs using Guid(a86373d631cd46449a40a0761f76fb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c3178f41c3fe44786d659709a27695') in 0.007267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.088341 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building1.prefab
-  artifactKey: Guid(c5468733bb8c6424883d5ecf1e2a7a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building1.prefab using Guid(c5468733bb8c6424883d5ecf1e2a7a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80ea05faa90dcabdf923edaa5e8ce12') in 0.239790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building4.prefab
-  artifactKey: Guid(d74443340d453fb4c8f832eaa7aa8138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building4.prefab using Guid(d74443340d453fb4c8f832eaa7aa8138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85338232e63f5408f7af6e1f52278d65') in 0.243589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building6.prefab
-  artifactKey: Guid(c73210b7ffa3ebc4c8c098fa2d282e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building6.prefab using Guid(c73210b7ffa3ebc4c8c098fa2d282e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6af2e429469d900390893a98182ecc2') in 0.193345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building5.prefab
-  artifactKey: Guid(e87ef9749bf5dea458a7ab8d598ae395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building5.prefab using Guid(e87ef9749bf5dea458a7ab8d598ae395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6266fce1614f28823031f80576cf770') in 0.210948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building2.prefab
-  artifactKey: Guid(a1fda680687416b4cb6cd5284b25c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building2.prefab using Guid(a1fda680687416b4cb6cd5284b25c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20d20827c940fdbf22a14470d8fa60a') in 0.210693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building3.prefab
-  artifactKey: Guid(424df2fbd075f0c4a81d2cad0866417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets/BuildingsPrefabs/Building3.prefab using Guid(424df2fbd075f0c4a81d2cad0866417d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8f91076b1b91e6f3a5ca08883bfe89') in 0.230732 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009670 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.648 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1648ms)
-		BeginReloadAssembly (157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (1395ms)
-			LoadAssemblies (120ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (458ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (580ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (506ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1529 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.6 MB.
-System memory in use after: 172.7 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2200.
-Total: 4.080600 ms (FindLiveObjects: 0.210800 ms CreateObjectMapping: 0.069000 ms MarkObjects: 3.720700 ms  DeleteObjects: 0.077700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 238.462373 seconds.
-  path: Assets/MedievalTown ModularKit/Assets
-  artifactKey: Guid(3f873d80d5c163c4db834d2d51e9fc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MedievalTown ModularKit/Assets using Guid(3f873d80d5c163c4db834d2d51e9fc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37c8978b77887ef311146831eac3e65') in 0.011245 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009230 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.414 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1415ms)
-		BeginReloadAssembly (187ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (75ms)
-		EndReloadAssembly (1141ms)
-			LoadAssemblies (115ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (447ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (369ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (4468ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.4 MB.
-System memory in use after: 172.5 MB.
+Unloading 1565 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.0 MB.
+System memory in use after: 127.0 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2203.
-Total: 2.579600 ms (FindLiveObjects: 0.158100 ms CreateObjectMapping: 0.059600 ms MarkObjects: 2.288800 ms  DeleteObjects: 0.072200 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2049.
+Total: 22.040800 ms (FindLiveObjects: 0.318600 ms CreateObjectMapping: 0.127200 ms MarkObjects: 21.325500 ms  DeleteObjects: 0.267500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1251,106 +130,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  path: Assets/MedievalTown ModularKit/Assets/Models/Beams/Beam.fbx
+  artifactKey: Guid(3b439044bc3f40c4dbbfe4f2086032a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/Beams/Beam.fbx using Guid(3b439044bc3f40c4dbbfe4f2086032a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29df64bd4253a360ee8c05806a7c3011') in 0.684352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models
+  artifactKey: Guid(a6c80d0ee8c3c8b419c82c6d959d8741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models using Guid(a6c80d0ee8c3c8b419c82c6d959d8741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78baf4dc295cdecb35f6a843e5978816') in 0.022970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/Beams/Beam2.fbx
+  artifactKey: Guid(b1bc808dc1a11154db01c4f592d87aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/Beams/Beam2.fbx using Guid(b1bc808dc1a11154db01c4f592d87aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2867aaa5a0bb247f5d3940f878d8e5d') in 0.308868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000984 seconds.
+  path: Assets/MedievalTown ModularKit
+  artifactKey: Guid(0297a0dde57f39943a7b48141875588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit using Guid(0297a0dde57f39943a7b48141875588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0dc57dc8c7422f81bd0a9ddc7e7e7b') in 0.060063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028419 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/Beams/Beam1.fbx
+  artifactKey: Guid(ef1456e587ff4c04bbe7dd3f10da9a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/Beams/Beam1.fbx using Guid(ef1456e587ff4c04bbe7dd3f10da9a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e198256bfbe29840e5a0059dcef89f8') in 0.148907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000806 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/Beams/Beam3.fbx
+  artifactKey: Guid(055ff5fc089b79e4f99c802f96699a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/Beams/Beam3.fbx using Guid(055ff5fc089b79e4f99c802f96699a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4f53b337bceba6dbec980099cda085') in 0.097490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002327 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/Beams
+  artifactKey: Guid(ea18dfbcc1db28a45a7b2830475d2e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/Beams using Guid(ea18dfbcc1db28a45a7b2830475d2e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2499baab36e3e4aab6074b61389f4ad9') in 0.016154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 755.169799 seconds.
+  path: Assets/MedievalTown ModularKit/Documentation
+  artifactKey: Guid(43dd1096ced632c42bc3f881ec39b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Documentation using Guid(43dd1096ced632c42bc3f881ec39b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980edad4e91e73b73e40381e46476e71') in 0.016973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 301.165873 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/SideWalk
+  artifactKey: Guid(ce500d702af910d45bbb41a8849ab6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/SideWalk using Guid(ce500d702af910d45bbb41a8849ab6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1533d0e72cd6d1891ee5fafad1eaaca') in 0.013869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146975 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalk1x1.fbx
+  artifactKey: Guid(4161ccda8dae2f245ad2ab9f5d0a436e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalk1x1.fbx using Guid(4161ccda8dae2f245ad2ab9f5d0a436e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6af7bed1b3682d37c9ba3a77230ee7') in 0.186799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004417 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalk2x1.fbx
+  artifactKey: Guid(5ba09457203d0d543affa879852a0b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalk2x1.fbx using Guid(5ba09457203d0d543affa879852a0b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44104f3b9446cbdf0fe8e266d6d3d6f') in 0.175447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalk3x1.fbx
+  artifactKey: Guid(ddf5035ecd95bdd43b5b6196f66e5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalk3x1.fbx using Guid(ddf5035ecd95bdd43b5b6196f66e5c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1981ac98ef865a9a3b66915ae02fb953') in 0.128084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalkCorner.fbx
+  artifactKey: Guid(f02256d242627624698c3a8d8d93b82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalkCorner.fbx using Guid(f02256d242627624698c3a8d8d93b82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10949adf1cc067e82cd5f9bdee1cf559') in 0.113407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006378 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalkCorner3.fbx
+  artifactKey: Guid(09f0c06f339d2e24f96f30a54ad46b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalkCorner3.fbx using Guid(09f0c06f339d2e24f96f30a54ad46b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361bf25f2b7c6b78dfb4c0dc33ef128a') in 0.198090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalkCorner2.fbx
+  artifactKey: Guid(b103c55040494254f8b335d0c20edc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalTown ModularKit/Assets/Models/SideWalk/SideWalkCorner2.fbx using Guid(b103c55040494254f8b335d0c20edc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ea7b1e7cd9eadffc2b4ea76ee52ebb') in 0.109919 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006595 seconds.
+Registered in 0.035074 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
+- Completed reload, in  5.409 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1138ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (5410ms)
+		BeginReloadAssembly (652ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (939ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (237ms)
+		EndReloadAssembly (4529ms)
+			LoadAssemblies (390ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
+			SetupTypeCache (1640ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (365ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (1595ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (292ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (11ms)
+				BeforeProcessingInitializeOnLoad (190ms)
+				ProcessInitializeOnLoadAttributes (1337ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (87ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.4 MB.
-System memory in use after: 172.5 MB.
+System memory in use before: 126.9 MB.
+System memory in use after: 127.0 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2206.
-Total: 1.993700 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.053400 ms MarkObjects: 1.731800 ms  DeleteObjects: 0.055700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008558 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.286 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1286ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1063ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (415ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (347ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.4 MB.
-System memory in use after: 172.5 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2209.
-Total: 2.677100 ms (FindLiveObjects: 0.184800 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.355900 ms  DeleteObjects: 0.058700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2062.
+Total: 16.589700 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.096800 ms MarkObjects: 16.099100 ms  DeleteObjects: 0.127300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1362,120 +274,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3880.120017 seconds.
-  path: Assets/ProCore/ProBuilder
-  artifactKey: Guid(9401232bf7fa5bb40be0ff2366fd8c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProCore/ProBuilder using Guid(9401232bf7fa5bb40be0ff2366fd8c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec39644736156e94177377eb9246ba1f') in 0.013951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.046406 seconds.
-  path: Assets/ProCore/ProBuilder/Material
-  artifactKey: Guid(819b8eaabe7f3024faf692448059c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProCore/ProBuilder/Material using Guid(819b8eaabe7f3024faf692448059c4dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ac39e1cec1803e077d61731f930d5e') in 0.011068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047346 seconds.
-  path: Assets/ProCore/ProBuilder/Material/Checker.mat
-  artifactKey: Guid(1ab720e4dee3e6342b3573e5932f72ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProCore/ProBuilder/Material/Checker.mat using Guid(1ab720e4dee3e6342b3573e5932f72ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0f847d35fd73858e2c858780f5b386') in 0.135949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.274043 seconds.
-  path: Assets/ProCore/ProBuilder/Material/Textures
-  artifactKey: Guid(f7f8043a0df23d744bb33f730c5c7a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProCore/ProBuilder/Material/Textures using Guid(f7f8043a0df23d744bb33f730c5c7a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4b286f30e468451a80d1d0bfffe455') in 0.007238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.080007 seconds.
-  path: Assets/ProCore/ProBuilder/Material/Textures/Checker.png
-  artifactKey: Guid(fb037c7b29046d9498cdace8ee042a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProCore/ProBuilder/Material/Textures/Checker.png using Guid(fb037c7b29046d9498cdace8ee042a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d8fe3ce5bd07f1b65d8ffd8f651b73') in 0.027862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/ProCore/ProBuilder/Material/Textures/VertOff.tga
-  artifactKey: Guid(0883d895ef5a0aa4892f247367dbeda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProCore/ProBuilder/Material/Textures/VertOff.tga using Guid(0883d895ef5a0aa4892f247367dbeda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4b2a77f1f8aacba5b47b9b64d4e6f4') in 0.011839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/ProCore/ProBuilder/Material/Textures/GridBox_NoDraw.tga
-  artifactKey: Guid(958f4a2eb8ded00429391a9816f6415f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProCore/ProBuilder/Material/Textures/GridBox_NoDraw.tga using Guid(958f4a2eb8ded00429391a9816f6415f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74311d90059bcc42d63dd19dc72824c1') in 0.013838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/ProCore/ProBuilder/Material/Textures/GridBox_Collider.tga
-  artifactKey: Guid(1c6c94e6f0b33b84794b532ebc14e8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProCore/ProBuilder/Material/Textures/GridBox_Collider.tga using Guid(1c6c94e6f0b33b84794b532ebc14e8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c027200ae22f98ce611f4e65b8376ea') in 0.013181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/ProCore/ProBuilder/Material/Textures/GridBox_Trigger.tga
-  artifactKey: Guid(3cedd75ba729c3847bddf7bb13f31a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProCore/ProBuilder/Material/Textures/GridBox_Trigger.tga using Guid(3cedd75ba729c3847bddf7bb13f31a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad9e42220d1f6df64b1caaa4e3e684c') in 0.014235 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 3.565920 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 32.359 seconds
-Domain Reload Profiling:
-	ReloadAssembly (32366ms)
-		BeginReloadAssembly (19517ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (351ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1053ms)
-		EndReloadAssembly (12095ms)
-			LoadAssemblies (22156ms)
-			RebuildTransferFunctionScriptingTraits (3ms)
-			SetupTypeCache (2995ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (150ms)
-			SetupLoadedEditorAssemblies (3119ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (8ms)
-				BeforeProcessingInitializeOnLoad (145ms)
-				ProcessInitializeOnLoadAttributes (2805ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (20ms)
-				EditorAssembliesLoaded (9ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (251ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.14 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1526 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.6 MB.
-System memory in use after: 175.7 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2322.
-Total: 34.208800 ms (FindLiveObjects: 0.323200 ms CreateObjectMapping: 0.109300 ms MarkObjects: 33.613600 ms  DeleteObjects: 0.161200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 100743.649420 seconds.
-  path: Assets/ProCore/ProBuilder/Material/Checker.mat
-  artifactKey: Guid(1ab720e4dee3e6342b3573e5932f72ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ProCore/ProBuilder/Material/Checker.mat using Guid(1ab720e4dee3e6342b3573e5932f72ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e105ae956d0159068ef0a8bca349e49e') in 0.726892 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
